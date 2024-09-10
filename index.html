@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <div id="app">
+      <form id="date" action="#">
+        <div class="container">
+          <div class="mt-5 mr-5">
+            <label for="startDate">Fecha de inicio:</label>
+            <input type="date" id="startDate" name="startDate" />
+          </div>
+
+          <div class="mt-5 mr-5">
+            <label for="endDate">Fecha de fin:</label>
+            <input type="date" id="endDate" name="endDate" />
+          </div>
+
+          <button type="submit" class="">Seleccionar</button>
+        </div>
+      </form>
+      <div id="calendar" class="container mt-5"></div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
