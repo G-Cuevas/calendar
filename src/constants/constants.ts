@@ -1,3 +1,5 @@
+export const weekDays = ["L", "M", "M", "J", "V", "S", "D"];
+
 export const months = [
   {
     name: "Enero",
